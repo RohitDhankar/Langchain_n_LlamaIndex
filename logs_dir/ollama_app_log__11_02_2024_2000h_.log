@@ -174,3 +174,391 @@ _11_02_2024_20:26:41 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrap
 _11_02_2024_20:26:41 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 188 -_Log_Message:  ----TYPE-query_pipeline----->> <class 'llama_index.core.query_pipeline.query.QueryPipeline'>
 _11_02_2024_20:26:41 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 189 -_Log_Message:  ----TYPE-query_pipeline----->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7fb9e0698500> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7fb9d8fa7e00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7fb9e07ca3e0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7fba180f3e60>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7fb9e3154400>, completion_to_prompt=<function default_completion_to_prompt at 0x7fb9e30660c0>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7fb9e16f8360>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7fb9e1327080>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7fba180f3e60>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7fb9e3154400>, completion_to_prompt=<function default_completion_to_prompt at 0x7fb9e30660c0>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7fb9d8fa6960> verbose=True show_progress=False num_workers=4 state={}
 _11_02_2024_20:26:41 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 189 -_Log_Message:  ----TYPE-query_pipeline----->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7fb9e0698500> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7fb9d8fa7e00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7fb9e07ca3e0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7fba180f3e60>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7fb9e3154400>, completion_to_prompt=<function default_completion_to_prompt at 0x7fb9e30660c0>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7fb9e16f8360>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7fb9e1327080>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7fba180f3e60>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7fb9e3154400>, completion_to_prompt=<function default_completion_to_prompt at 0x7fb9e30660c0>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7fb9d8fa6960> verbose=True show_progress=False num_workers=4 state={}
+_11_02_2024_20:50:12 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_20:50:12 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_20:50:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_20:50:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_20:50:14 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_20:50:14 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_20:50:14 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_20:50:14 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_20:50:14 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_20:50:14 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'dataset_name': 'mtcars', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'dataset_name': 'mtcars', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'dataset_name': 'mtcars', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'dataset_name': 'mtcars', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:14 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:15 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:15 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_20:50:15 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_20:50:16 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_20:50:16 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_20:50:16 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_20:50:16 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_20:50:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'messages': [], 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f5094e32960>, 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'messages': [], 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f5094e32960>, 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_tb_name': 'mtcars_name_df', 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_tb_name': 'mtcars_name_df', 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:19 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_tb_name': 'mtcars_name_df', 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_tb_name': 'mtcars_name_df', 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f505d107200>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_20:50:34 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_20:50:34 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 116 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_20:50:34 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 116 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_20:50:34 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 107 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_20:50:34 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 107 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_20:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 114 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7f505d1070e0>
+_11_02_2024_20:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 114 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7f505d1070e0>
+_11_02_2024_20:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 116 -_Log_Message:  --obj_retriever--->> <llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>
+_11_02_2024_20:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 116 -_Log_Message:  --obj_retriever--->> <llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>
+_11_02_2024_20:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 120 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7f50589bff50>
+_11_02_2024_20:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 120 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7f50589bff50>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 123 -_Log_Message:  --response_sql_retr_eng--->> To fix this issue, you can use the `sqlite3` command-line tool or a Python library like `sqlite3` or `pandas` with SQLite. Here's an example using both methods:
+
+**Method 1: Using sqlite3 Command-Line Tool**
+
+```bash
+#!/bin/bash
+
+# Connect to the SQLite database
+echo "Enter the database file path:"
+read db_file_path
+sqlite3 $db_file_path <<EOF
+    SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;
+EOF
+```
+
+**Method 2: Using Python with sqlite3 Library**
+
+```python
+import sqlite3
+
+# Connect to the SQLite database
+conn = sqlite3.connect('mtcars.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Execute the SQL query
+query = "SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;"
+cur.execute(query)
+
+# Fetch all rows from the query result
+rows = cur.fetchall()
+
+# Print each row
+for row in rows:
+    print(row)
+```
+
+**Method 3: Using Python with pandas Library**
+
+```python
+import pandas as pd
+
+# Load the SQLite database into a DataFrame
+df = pd.read_sql_query("SELECT * FROM mtcars_name_df", 'mtcars.db')
+
+# Group the data by car model name and count the occurrences
+grouped_df = df.groupby('Unnamed').size().reset_index(name='Count')
+
+# Merge the grouped data with the original DataFrame
+merged_df = pd.merge(grouped_df, df[['Unnamed', 'mpg']], on='Unnamed')
+
+# Print the merged DataFrame
+print(merged_df)
+```
+
+These examples will output the count of each car model and its corresponding fuel efficiency. The exact response format may vary depending on your database schema and desired output format.
+
+**Sample Output:**
+
+| Unnamed  | mpg   | Count |
+|----------|-------|-------|
+| Mazda RX7 | 21.0  | 1     |
+| Mazda RX7 | 27.2  | 1     |
+| ...      | ...   | ...   |
+
+Note that the actual output will depend on your database schema and data.
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 123 -_Log_Message:  --response_sql_retr_eng--->> To fix this issue, you can use the `sqlite3` command-line tool or a Python library like `sqlite3` or `pandas` with SQLite. Here's an example using both methods:
+
+**Method 1: Using sqlite3 Command-Line Tool**
+
+```bash
+#!/bin/bash
+
+# Connect to the SQLite database
+echo "Enter the database file path:"
+read db_file_path
+sqlite3 $db_file_path <<EOF
+    SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;
+EOF
+```
+
+**Method 2: Using Python with sqlite3 Library**
+
+```python
+import sqlite3
+
+# Connect to the SQLite database
+conn = sqlite3.connect('mtcars.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Execute the SQL query
+query = "SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;"
+cur.execute(query)
+
+# Fetch all rows from the query result
+rows = cur.fetchall()
+
+# Print each row
+for row in rows:
+    print(row)
+```
+
+**Method 3: Using Python with pandas Library**
+
+```python
+import pandas as pd
+
+# Load the SQLite database into a DataFrame
+df = pd.read_sql_query("SELECT * FROM mtcars_name_df", 'mtcars.db')
+
+# Group the data by car model name and count the occurrences
+grouped_df = df.groupby('Unnamed').size().reset_index(name='Count')
+
+# Merge the grouped data with the original DataFrame
+merged_df = pd.merge(grouped_df, df[['Unnamed', 'mpg']], on='Unnamed')
+
+# Print the merged DataFrame
+print(merged_df)
+```
+
+These examples will output the count of each car model and its corresponding fuel efficiency. The exact response format may vary depending on your database schema and desired output format.
+
+**Sample Output:**
+
+| Unnamed  | mpg   | Count |
+|----------|-------|-------|
+| Mazda RX7 | 21.0  | 1     |
+| Mazda RX7 | 27.2  | 1     |
+| ...      | ...   | ...   |
+
+Note that the actual output will depend on your database schema and data.
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 128 -_Log_Message:  --res_sql_retr_eng--->> To fix this issue, you can use the `sqlite3` command-line tool or a Python library like `sqlite3` or `pandas` with SQLite. Here's an example using both methods:
+
+**Method 1: Using sqlite3 Command-Line Tool**
+
+```bash
+#!/bin/bash
+
+# Connect to the SQLite database
+echo "Enter the database file path:"
+read db_file_path
+sqlite3 $db_file_path <<EOF
+    SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;
+EOF
+```
+
+**Method 2: Using Python with sqlite3 Library**
+
+```python
+import sqlite3
+
+# Connect to the SQLite database
+conn = sqlite3.connect('mtcars.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Execute the SQL query
+query = "SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;"
+cur.execute(query)
+
+# Fetch all rows from the query result
+rows = cur.fetchall()
+
+# Print each row
+for row in rows:
+    print(row)
+```
+
+**Method 3: Using Python with pandas Library**
+
+```python
+import pandas as pd
+
+# Load the SQLite database into a DataFrame
+df = pd.read_sql_query("SELECT * FROM mtcars_name_df", 'mtcars.db')
+
+# Group the data by car model name and count the occurrences
+grouped_df = df.groupby('Unnamed').size().reset_index(name='Count')
+
+# Merge the grouped data with the original DataFrame
+merged_df = pd.merge(grouped_df, df[['Unnamed', 'mpg']], on='Unnamed')
+
+# Print the merged DataFrame
+print(merged_df)
+```
+
+These examples will output the count of each car model and its corresponding fuel efficiency. The exact response format may vary depending on your database schema and desired output format.
+
+**Sample Output:**
+
+| Unnamed  | mpg   | Count |
+|----------|-------|-------|
+| Mazda RX7 | 21.0  | 1     |
+| Mazda RX7 | 27.2  | 1     |
+| ...      | ...   | ...   |
+
+Note that the actual output will depend on your database schema and data.
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 128 -_Log_Message:  --res_sql_retr_eng--->> To fix this issue, you can use the `sqlite3` command-line tool or a Python library like `sqlite3` or `pandas` with SQLite. Here's an example using both methods:
+
+**Method 1: Using sqlite3 Command-Line Tool**
+
+```bash
+#!/bin/bash
+
+# Connect to the SQLite database
+echo "Enter the database file path:"
+read db_file_path
+sqlite3 $db_file_path <<EOF
+    SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;
+EOF
+```
+
+**Method 2: Using Python with sqlite3 Library**
+
+```python
+import sqlite3
+
+# Connect to the SQLite database
+conn = sqlite3.connect('mtcars.db')
+
+# Create a cursor object
+cur = conn.cursor()
+
+# Execute the SQL query
+query = "SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed;"
+cur.execute(query)
+
+# Fetch all rows from the query result
+rows = cur.fetchall()
+
+# Print each row
+for row in rows:
+    print(row)
+```
+
+**Method 3: Using Python with pandas Library**
+
+```python
+import pandas as pd
+
+# Load the SQLite database into a DataFrame
+df = pd.read_sql_query("SELECT * FROM mtcars_name_df", 'mtcars.db')
+
+# Group the data by car model name and count the occurrences
+grouped_df = df.groupby('Unnamed').size().reset_index(name='Count')
+
+# Merge the grouped data with the original DataFrame
+merged_df = pd.merge(grouped_df, df[['Unnamed', 'mpg']], on='Unnamed')
+
+# Print the merged DataFrame
+print(merged_df)
+```
+
+These examples will output the count of each car model and its corresponding fuel efficiency. The exact response format may vary depending on your database schema and desired output format.
+
+**Sample Output:**
+
+| Unnamed  | mpg   | Count |
+|----------|-------|-------|
+| Mazda RX7 | 21.0  | 1     |
+| Mazda RX7 | 27.2  | 1     |
+| ...      | ...   | ...   |
+
+Note that the actual output will depend on your database schema and data.
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 129 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='f9e859f2-1938-43d5-a126-840c8d83c86a', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, text='Error: Statement "SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed; \\n\\nThis will return a result with two columns - \'Unnamed\' which represents the car model name and \'mpg\', which represents the fuel efficiency of each car. The count for each row is grouped by the car model name.\\n\\nNext, we need to run this query on our SQLite database and get the results:" is invalid SQL.', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 129 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='f9e859f2-1938-43d5-a126-840c8d83c86a', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, text='Error: Statement "SELECT COUNT(Unnamed), mpg FROM mtcars_name_df GROUP BY Unnamed; \\n\\nThis will return a result with two columns - \'Unnamed\' which represents the car model name and \'mpg\', which represents the fuel efficiency of each car. The count for each row is grouped by the car model name.\\n\\nNext, we need to run this query on our SQLite database and get the results:" is invalid SQL.', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 150 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 150 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 151 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 151 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 154 -_Log_Message:  --TYPE--table_parser_component--->> <class 'llama_index.core.query_pipeline.components.function.FnComponent'>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 154 -_Log_Message:  --TYPE--table_parser_component--->> <class 'llama_index.core.query_pipeline.components.function.FnComponent'>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 156 -_Log_Message:  --TYPE--sql_parser_component--->> <class 'llama_index.core.query_pipeline.components.function.FnComponent'>
+_11_02_2024_20:51:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 156 -_Log_Message:  --TYPE--sql_parser_component--->> <class 'llama_index.core.query_pipeline.components.function.FnComponent'>
+_11_02_2024_20:51:07 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_20:51:07 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_20:51:08 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_20:51:08 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_20:51:08 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_20:51:08 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 167 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 167 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 189 -_Log_Message:  ----TYPE-query_pipeline----->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5058ded040> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7f505ca00fe0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7f505c85b920>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7f5058decdd0> verbose=True show_progress=False num_workers=4 state={}
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 189 -_Log_Message:  ----TYPE-query_pipeline----->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5058ded040> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7f505ca00fe0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7f505c85b920>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7f5058decdd0> verbose=True show_progress=False num_workers=4 state={}
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 192 -_Log_Message:  ----TYPE-defined_query_pipeline----->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5058ded040> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7f505ca00fe0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7f505c85b920>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7f5058decdd0> verbose=True show_progress=False num_workers=4 state={}
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 192 -_Log_Message:  ----TYPE-defined_query_pipeline----->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5058ded040> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7f505ca00fe0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7f505c85b920>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7f5058decdd0> verbose=True show_progress=False num_workers=4 state={}
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 198 -_Log_Message:  ----TYPE-defined_query_pipeline---AA-->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5058ded040> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7f505ca00fe0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7f505c85b920>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7f5058decdd0> verbose=True show_progress=False num_workers=4 state={}
+_11_02_2024_20:51:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 198 -_Log_Message:  ----TYPE-defined_query_pipeline---AA-->> partial_dict={} callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5058ded040> module_dict={'input': InputComponent(partial_dict={}), 'table_retriever': ObjectRetrieverComponent(partial_dict={}, retriever=<llama_index.core.objects.base.ObjectRetriever object at 0x7f50589bfe00>), 'table_output_parser': FnComponent(partial_dict={}, fn=<function get_table_context_str at 0x7f505ca00fe0>, async_fn=None, output_key='output'), 'text2sql_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.TEXT_TO_SQL: 'text_to_sql'>}, template_vars=['dialect', 'schema', 'query_str'], kwargs={'dialect': 'sqlite'}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.\n\nNever query for all the columns from a specific table, only ask for a few relevant columns given the question.\n\nPay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:\n\nQuestion: Question here\nSQLQuery: SQL Query to run\nSQLResult: Result of the SQLQuery\nAnswer: Final answer here\n\nOnly use tables listed below.\n{schema}\n\nQuestion: {query_str}\nSQLQuery: '), llm=None, format_messages=False), 'text2sql_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False), 'sql_output_parser': FnComponent(partial_dict={}, fn=<function parse_response_to_sql at 0x7f505c85b920>, async_fn=None, output_key='output'), 'sql_retriever': RetrieverComponent(partial_dict={}, retriever=<llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f5058dece90>), 'response_synthesis_prompt': PromptComponent(partial_dict={}, prompt=PromptTemplate(metadata={'prompt_type': <PromptType.CUSTOM: 'custom'>}, template_vars=['query_str', 'sql_query', 'context_str'], kwargs={}, output_parser=None, template_var_mappings=None, function_mappings=None, template='Given an input question, synthesize a response from the query results.\nQuery: {query_str}\nSQL: {sql_query}\nSQL Response: {context_str}\nResponse: '), llm=None, format_messages=False), 'response_synthesis_llm': LLMChatComponent(partial_dict={}, llm=Ollama(callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x7f5094391520>, system_prompt=None, messages_to_prompt=<function messages_to_prompt at 0x7f505e1c8540>, completion_to_prompt=<function default_completion_to_prompt at 0x7f505e0d6200>, output_parser=None, pydantic_program_mode=<PydanticProgramMode.DEFAULT: 'default'>, query_wrapper_prompt=None, base_url='http://localhost:11434', model='llama3.2', temperature=0.75, context_window=3900, request_timeout=120.0, prompt_key='prompt', json_mode=False, additional_kwargs={}, is_function_calling_model=True, keep_alive=None), streaming=False)} dag=<networkx.classes.multidigraph.MultiDiGraph object at 0x7f5058decdd0> verbose=True show_progress=False num_workers=4 state={}
