@@ -7,7 +7,7 @@ from ollama_ingest_models import get_list_of_models
 from ollama_llm import OLLAMA_LLM
 
 
-from util_logger import setup_logger
+from utils.util_logger import setup_logger
 logger = setup_logger(module_name=str(__name__))
 
 EMBEDDING_MODEL = "nomic-embed-text"

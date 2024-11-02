@@ -1,0 +1,196 @@
+_11_02_2024_16:12:59 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:12:59 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:13:54 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:13:54 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:15:50 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:15:50 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:18:09 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:18:09 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_16:18:12 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_16:18:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_16:18:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_16:18:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_16:18:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_16:18:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_16:18:13 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_16:18:13 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f286373b1a0>}
+_11_02_2024_16:18:13 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f286373b1a0>}
+_11_02_2024_16:18:13 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_16:18:13 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'messages': [], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f286373b1a0>, 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality']}
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'messages': [], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f286373b1a0>, 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality']}
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_16:18:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'messages': [], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f286373b1a0>, 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality']}
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'messages': [], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f286373b1a0>, 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality']}
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_16:19:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_16:19:39 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> {"type": "undefined", "name": "count_of_cars", "type": "number"}
+_11_02_2024_16:19:39 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> {"type": "undefined", "name": "count_of_cars", "type": "number"}
+_11_02_2024_16:19:58 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> It seems you're referring to a technique used in game development, specifically for procedural content generation.
+
+**Nomic Embed Text**
+
+Nomic embed text is a method of embedding metadata or instructions within a game's executable or binary file. This allows developers to store information about the game's world, levels, items, and other assets, making it easier to generate procedurally generated content.
+
+The idea behind nomic embed text is to use a programming language, such as C++ or JavaScript, to write the metadata in a way that can be embedded within the game's code. This metadata can then be accessed by the game at runtime, allowing for dynamic generation of content.
+
+**How it Works**
+
+Here's a high-level overview of how nomic embed text works:
+
+1. **Metadata creation**: Developers create metadata about their game's world, levels, items, and other assets using a programming language.
+2. **Binary embedding**: The metadata is then embedded within the game's executable or binary file, often using compression algorithms to reduce file size.
+3. **Runtime access**: At runtime, the game accesses the embedded metadata and uses it to generate procedurally generated content.
+
+**Benefits**
+
+Nomic embed text offers several benefits for procedural content generation:
+
+* **Flexibility**: Developers can easily modify or update the metadata without having to recompile the entire game.
+* **Space efficiency**: Embedding metadata within the executable file reduces storage requirements, making it ideal for games with large worlds or assets.
+* **Dynamic content**: Procedurally generated content can be tailored to specific player preferences or environmental conditions.
+
+**Challenges**
+
+While nomic embed text offers many benefits, there are also some challenges to consider:
+
+* **Complexity**: Embedding metadata within the executable file can add complexity to the game's development process.
+* **Security**: Malicious actors may attempt to extract and modify the embedded metadata, compromising game security.
+* **Interpretation**: The metadata must be interpreted correctly by the game at runtime, which can be error-prone if not implemented carefully.
+
+In summary, nomic embed text is a technique for embedding metadata within a game's executable or binary file, allowing developers to generate procedural content dynamically. While it offers benefits like flexibility and space efficiency, it also presents challenges related to complexity, security, and interpretation.
+_11_02_2024_16:19:58 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> It seems you're referring to a technique used in game development, specifically for procedural content generation.
+
+**Nomic Embed Text**
+
+Nomic embed text is a method of embedding metadata or instructions within a game's executable or binary file. This allows developers to store information about the game's world, levels, items, and other assets, making it easier to generate procedurally generated content.
+
+The idea behind nomic embed text is to use a programming language, such as C++ or JavaScript, to write the metadata in a way that can be embedded within the game's code. This metadata can then be accessed by the game at runtime, allowing for dynamic generation of content.
+
+**How it Works**
+
+Here's a high-level overview of how nomic embed text works:
+
+1. **Metadata creation**: Developers create metadata about their game's world, levels, items, and other assets using a programming language.
+2. **Binary embedding**: The metadata is then embedded within the game's executable or binary file, often using compression algorithms to reduce file size.
+3. **Runtime access**: At runtime, the game accesses the embedded metadata and uses it to generate procedurally generated content.
+
+**Benefits**
+
+Nomic embed text offers several benefits for procedural content generation:
+
+* **Flexibility**: Developers can easily modify or update the metadata without having to recompile the entire game.
+* **Space efficiency**: Embedding metadata within the executable file reduces storage requirements, making it ideal for games with large worlds or assets.
+* **Dynamic content**: Procedurally generated content can be tailored to specific player preferences or environmental conditions.
+
+**Challenges**
+
+While nomic embed text offers many benefits, there are also some challenges to consider:
+
+* **Complexity**: Embedding metadata within the executable file can add complexity to the game's development process.
+* **Security**: Malicious actors may attempt to extract and modify the embedded metadata, compromising game security.
+* **Interpretation**: The metadata must be interpreted correctly by the game at runtime, which can be error-prone if not implemented carefully.
+
+In summary, nomic embed text is a technique for embedding metadata within a game's executable or binary file, allowing developers to generate procedural content dynamically. While it offers benefits like flexibility and space efficiency, it also presents challenges related to complexity, security, and interpretation.
+_11_02_2024_16:19:59 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_16:19:59 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_16:19:59 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 117 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_16:19:59 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 117 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_16:20:04 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> I don't understand what you mean by "nomic-embed-text". Could you please provide more context or clarify your request? I'll do my best to assist you. 
+
+If you're looking for a way to embed text into a game or simulation, I can suggest some general approaches:
+
+1. **ASCII art**: Use ASCII characters to create simple images and embed them in a text-based environment.
+2. **Image embedding**: Use image compression algorithms to embed an image into a text file or another format.
+3. **Text rendering**: Use programming languages like Python or JavaScript to render text onto a virtual screen or canvas.
+
+Please provide more information about your specific use case, and I'll be happy to help you explore options for nomic-embed-text.
+_11_02_2024_16:20:04 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> I don't understand what you mean by "nomic-embed-text". Could you please provide more context or clarify your request? I'll do my best to assist you. 
+
+If you're looking for a way to embed text into a game or simulation, I can suggest some general approaches:
+
+1. **ASCII art**: Use ASCII characters to create simple images and embed them in a text-based environment.
+2. **Image embedding**: Use image compression algorithms to embed an image into a text file or another format.
+3. **Text rendering**: Use programming languages like Python or JavaScript to render text onto a virtual screen or canvas.
+
+Please provide more information about your specific use case, and I'll be happy to help you explore options for nomic-embed-text.
+_11_02_2024_16:20:04 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 105 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_16:20:04 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 105 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_16:20:06 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 112 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7f2860efc890>
+_11_02_2024_16:20:06 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 112 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7f2860efc890>
+_11_02_2024_16:20:06 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 116 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7f2860bba660>
+_11_02_2024_16:20:06 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 116 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7f2860bba660>
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  -TYPE==-response_sql_retr_eng--->> <class 'llama_index.core.base.response.schema.Response'>
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  -TYPE==-response_sql_retr_eng--->> <class 'llama_index.core.base.response.schema.Response'>
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 119 -_Log_Message:  --response_sql_retr_eng--->> There are 32 cars in the dataset.
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 119 -_Log_Message:  --response_sql_retr_eng--->> There are 32 cars in the dataset.
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 127 -_Log_Message:  --res_sql_retr_eng--->> There are 32 cars in the dataset.
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 127 -_Log_Message:  --res_sql_retr_eng--->> There are 32 cars in the dataset.
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 128 -_Log_Message:  --metadata_res--->> [(32,)]
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 128 -_Log_Message:  --metadata_res--->> [(32,)]
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 129 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='22e5f92e-bae3-47d3-a86d-b15e92651ad2', embedding=None, metadata={'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, excluded_embed_metadata_keys=['sql_query', 'result', 'col_keys'], excluded_llm_metadata_keys=['sql_query', 'result', 'col_keys'], relationships={}, text='[(32,)]', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 129 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='22e5f92e-bae3-47d3-a86d-b15e92651ad2', embedding=None, metadata={'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, excluded_embed_metadata_keys=['sql_query', 'result', 'col_keys'], excluded_llm_metadata_keys=['sql_query', 'result', 'col_keys'], relationships={}, text='[(32,)]', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 130 -_Log_Message:  --metadata_all_res--->> {'22e5f92e-bae3-47d3-a86d-b15e92651ad2': {'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, 'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 130 -_Log_Message:  --metadata_all_res--->> {'22e5f92e-bae3-47d3-a86d-b15e92651ad2': {'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, 'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 133 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 133 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 134 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f28632cb830>
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 134 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f28632cb830>
+_11_02_2024_16:20:10 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_16:20:10 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_16:20:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_16:20:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_16:20:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_16:20:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_16:20:11 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 155 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
+_11_02_2024_16:20:11 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 155 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 

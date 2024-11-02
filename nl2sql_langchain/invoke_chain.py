@@ -1,4 +1,4 @@
-from util_logger import setup_logger
+from utils.util_logger import setup_logger
 logger = setup_logger(module_name=str(__name__))
 
 import streamlit as st

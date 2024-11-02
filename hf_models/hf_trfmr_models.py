@@ -1,7 +1,7 @@
 ## SOURCE -- https://huggingface.co/HF1BitLLM/Llama3-8B-1.58-100B-tokens
 
 
-from util_logger import setup_logger
+from utils.util_logger import setup_logger
 logger = setup_logger(module_name=str(__name__))
 
 import streamlit as st

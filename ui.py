@@ -5,7 +5,7 @@
 
 import streamlit as st
 import os
-from document_loader import ChromaCRUD 
+
 from sqlalchemy import create_engine
 import pandas as pd
 
@@ -17,8 +17,9 @@ from langchain_community.llms import Ollama as cls_ollama_langchain
 # from ollama_langchain.ollama_llm import OLLAMA_LLM
 import ollama as ollama_py_lib
 
-from ollama_ingest_models import get_list_of_models
-from ollama_llm import OLLAMA_LLM
+from utils.ollama_ingest_models import get_list_of_models
+from utils.ollama_llm import OLLAMA_LLM
+from utils.document_loader import ChromaCRUD 
 from nl2sql_langchain.invoke_chain import Nl2SQL_Langchain
 from nl2sql_llama_idx.invoke_nl2sql_llamaIdx import Nl2SQL_LLamaIndex
 #from hf_models.hf_trfmr_models import HFModelsInvoke

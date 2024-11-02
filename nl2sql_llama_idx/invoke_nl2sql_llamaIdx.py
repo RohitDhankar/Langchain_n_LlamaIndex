@@ -6,7 +6,7 @@
 import streamlit as st
 import os
 
-from util_logger import setup_logger
+from utils.util_logger import setup_logger
 logger = setup_logger(module_name=str(__name__))
 
 from llama_index.core.prompts.default_prompts import DEFAULT_TEXT_TO_SQL_PROMPT

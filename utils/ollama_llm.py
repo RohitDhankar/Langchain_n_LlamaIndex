@@ -14,8 +14,7 @@ from langchain.prompts.prompt import PromptTemplate
 from utils.util_logger import setup_logger
 logger = setup_logger(module_name=str(__name__))
 
-
-from prompt_templates import (SYS_PROMPT_1,
+from .prompt_templates import (SYS_PROMPT_1,
                             REPHRASE_USER_QUERY,
                             LLM_RESPONSE_TEMPLATE)
 
