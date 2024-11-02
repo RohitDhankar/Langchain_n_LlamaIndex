@@ -114,14 +114,16 @@ if st.chat_input != None:
                                                 alchemy_engine= st.session_state["sql_alchemy_engine"],
                                                 table_name=st.session_state["sqlite_tb_name"])
         logger.debug("---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> %s",type(sql_db_llama_idx))
-        response_sql_retr_eng = Nl2SQL_LLamaIndex().wrapper_get_query(user_nl_query,
-                                                        embedding_model_name_1,
-                                                        sql_db_llama_idx,
-                                                        st.session_state["sqlite_tb_name"]
-                                                        )
+        response_sql_retr_eng , dict_res_sql_retr_eng = Nl2SQL_LLamaIndex().wrapper_get_query(user_nl_query,
+                                                                            embedding_model_name_1,
+                                                                            sql_db_llama_idx,
+                                                                            st.session_state["sqlite_tb_name"]
+                                                                            )
 
         st.info("Initial RES - from -- SQLTableRetrieverQueryEngine")
         st.info(response_sql_retr_eng)
+        st.info(str(dict_res_sql_retr_eng))
+
         
         #Nl2SQL_LLamaIndex().parse_error(
         

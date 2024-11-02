@@ -5,6 +5,14 @@ as there are instances when the Answer here - is incorrect
 which is then corrected by the - 
 Whence it corrects the Answer the metadata , results is not an empty Dict 
 
+As seen below when the Answer is incorrect we have an Emty Dict 
+_11_02_2024_16:50:35 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 133 -_Log_Message:  --metadata_all_res--->> {'48b49a98-a098-4715-83f7-51e0f0851bd1': {}, 'sql_query': 'Answer: The number of cars in the database is 197.'}
+
+
+--res_source_nodes--->> [NodeWithScore(node=TextNode(id_='5c286c7d-e3ff-4e32-bda9-c683a6400c4e', embedding=None, metadata={'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, excluded_embed_metadata_keys=['sql_query', 'result', 'col_keys'], excluded_llm_metadata_keys=['sql_query', 'result', 'col_keys'], relationships={}, text='[(32,)]', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+--res_source_nodes--->> [NodeWithScore(node=TextNode(id_='48b49a98-a098-4715-83f7-51e0f0851bd1', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, text="Error: Statement 'Answer: The number of cars in the database is 197.' is invalid SQL.", mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+
+
 
 
 

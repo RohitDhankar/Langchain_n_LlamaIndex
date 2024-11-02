@@ -1,0 +1,328 @@
+_11_02_2024_19:01:51 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:01:51 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:01:52 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_tb_name': 'mtcars_name_df', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f94b12eaf60>, 'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_tb_name': 'mtcars_name_df', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f94b12eaf60>, 'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:01:52 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:01:53 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:01:53 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:01:53 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:01:53 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:01:53 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_tb_name': 'mtcars_name_df', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f94b142f590>, 'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:53 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_tb_name': 'mtcars_name_df', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f94b142f590>, 'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'dataset_name': 'mtcars', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:01:53 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:01:53 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f94b12eaf60>, 'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f94b12eaf60>, 'messages': [], 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest')}
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:02:03 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:02:03 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 116 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:02:03 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 116 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:02:04 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 107 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_19:02:04 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 107 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_19:02:05 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 114 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7f94b0fc8b30>
+_11_02_2024_19:02:05 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 114 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7f94b0fc8b30>
+_11_02_2024_19:02:05 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7f94b10abad0>
+_11_02_2024_19:02:05 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7f94b10abad0>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 121 -_Log_Message:  --response_sql_retr_eng--->> Based on the SQL query result, there are 32 records in the 'mtcars_name_df' table.
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 121 -_Log_Message:  --response_sql_retr_eng--->> Based on the SQL query result, there are 32 records in the 'mtcars_name_df' table.
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 126 -_Log_Message:  --res_sql_retr_eng--->> Based on the SQL query result, there are 32 records in the 'mtcars_name_df' table.
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 126 -_Log_Message:  --res_sql_retr_eng--->> Based on the SQL query result, there are 32 records in the 'mtcars_name_df' table.
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 127 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='5871bbb3-6568-479d-b34b-d2a378446f66', embedding=None, metadata={'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, excluded_embed_metadata_keys=['sql_query', 'result', 'col_keys'], excluded_llm_metadata_keys=['sql_query', 'result', 'col_keys'], relationships={}, text='[(32,)]', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 127 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='5871bbb3-6568-479d-b34b-d2a378446f66', embedding=None, metadata={'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, excluded_embed_metadata_keys=['sql_query', 'result', 'col_keys'], excluded_llm_metadata_keys=['sql_query', 'result', 'col_keys'], relationships={}, text='[(32,)]', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 137 -_Log_Message:  -TYPE-res_source_nodes--ele-0--text>> <class 'str'>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 137 -_Log_Message:  -TYPE-res_source_nodes--ele-0--text>> <class 'str'>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 138 -_Log_Message:  --metadata_all_res--->> <class 'dict'>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 138 -_Log_Message:  --metadata_all_res--->> <class 'dict'>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 139 -_Log_Message:  --metadata_all_res--->> {'5871bbb3-6568-479d-b34b-d2a378446f66': {'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, 'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 139 -_Log_Message:  --metadata_all_res--->> {'5871bbb3-6568-479d-b34b-d2a378446f66': {'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, 'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 143 -_Log_Message:  --metadata_res--->> [(32,)]
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 143 -_Log_Message:  --metadata_res--->> [(32,)]
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 148 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 148 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 149 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f94b036fd70>
+_11_02_2024_19:02:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 149 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7f94b036fd70>
+_11_02_2024_19:02:10 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:02:10 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:02:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:02:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:02:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:02:11 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:02:11 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 170 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
+_11_02_2024_19:02:11 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 170 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
+_11_02_2024_19:21:02 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:21:02 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:47:07 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:47:07 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:48:30 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:48:30 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:49:56 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:49:56 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:52:41 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:52:41 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'dataset_name': 'mtcars', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49b6e4e60>, 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'dataset_name': 'mtcars', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49b6e4e60>, 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'dataset_name': 'mtcars', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49b6e4e60>, 'llm': Ollama(model='nomic-embed-text:latest'), 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'dataset_name': 'mtcars', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49b6e4e60>, 'llm': Ollama(model='nomic-embed-text:latest'), 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:42 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:42 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['tips_name_df']
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['tips_name_df']
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///tips.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add79e0>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'tips', 'sqlite_tb_name': 'tips_name_df'}
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///tips.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add79e0>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'tips', 'sqlite_tb_name': 'tips_name_df'}
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49adf3f20>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49adf3f20>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:43 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add5550>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add5550>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:43 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:44 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:44 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:52:44 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:44 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:52:44 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49ac35d30>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:44 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49ac35d30>, 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'dataset_name': 'mtcars', 'sqlite_tb_name': 'mtcars_name_df'}
+_11_02_2024_19:52:44 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:44 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'llm': Ollama(model='nomic-embed-text:latest'), 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add5550>, 'messages': [], 'dataset_name': 'mtcars'}
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'llm': Ollama(model='nomic-embed-text:latest'), 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add5550>, 'messages': [], 'dataset_name': 'mtcars'}
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:52:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'llm': Ollama(model='nomic-embed-text:latest'), 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add5550>, 'messages': [], 'dataset_name': 'mtcars'}
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest'], 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'llm': Ollama(model='nomic-embed-text:latest'), 'sqlite_tb_name': 'mtcars_name_df', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'ollama_model': 'nomic-embed-text:latest', 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fd49add5550>, 'messages': [], 'dataset_name': 'mtcars'}
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_02_2024_19:53:07 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:53:07 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 116 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:53:07 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 116 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_02_2024_19:53:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 107 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_19:53:07 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 107 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_02_2024_19:53:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 114 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7fd4e13b7ad0>
+_11_02_2024_19:53:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 114 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7fd4e13b7ad0>
+_11_02_2024_19:53:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7fd49b627f80>
+_11_02_2024_19:53:08 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7fd49b627f80>
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 121 -_Log_Message:  --response_sql_retr_eng--->> Based on the provided information, it seems like the SQL query is not valid. However, if we assume that the SQL query was correct and it's supposed to return a count of cars, here's an example response:
+
+"Error: Statement 'SELECT * FROM cars' is invalid SQL.
+
+To get the count of cars, you can use the following SQL query:
+```sql
+SELECT COUNT(*) FROM cars;
+```
+This will return the total number of rows in the 'cars' table."
+
+Alternatively, if the SQL query was correct and it's supposed to return a specific count of cars, we would need more information about the query itself.
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 121 -_Log_Message:  --response_sql_retr_eng--->> Based on the provided information, it seems like the SQL query is not valid. However, if we assume that the SQL query was correct and it's supposed to return a count of cars, here's an example response:
+
+"Error: Statement 'SELECT * FROM cars' is invalid SQL.
+
+To get the count of cars, you can use the following SQL query:
+```sql
+SELECT COUNT(*) FROM cars;
+```
+This will return the total number of rows in the 'cars' table."
+
+Alternatively, if the SQL query was correct and it's supposed to return a specific count of cars, we would need more information about the query itself.
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 126 -_Log_Message:  --res_sql_retr_eng--->> Based on the provided information, it seems like the SQL query is not valid. However, if we assume that the SQL query was correct and it's supposed to return a count of cars, here's an example response:
+
+"Error: Statement 'SELECT * FROM cars' is invalid SQL.
+
+To get the count of cars, you can use the following SQL query:
+```sql
+SELECT COUNT(*) FROM cars;
+```
+This will return the total number of rows in the 'cars' table."
+
+Alternatively, if the SQL query was correct and it's supposed to return a specific count of cars, we would need more information about the query itself.
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 126 -_Log_Message:  --res_sql_retr_eng--->> Based on the provided information, it seems like the SQL query is not valid. However, if we assume that the SQL query was correct and it's supposed to return a count of cars, here's an example response:
+
+"Error: Statement 'SELECT * FROM cars' is invalid SQL.
+
+To get the count of cars, you can use the following SQL query:
+```sql
+SELECT COUNT(*) FROM cars;
+```
+This will return the total number of rows in the 'cars' table."
+
+Alternatively, if the SQL query was correct and it's supposed to return a specific count of cars, we would need more information about the query itself.
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 127 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='999e6023-267c-40de-b2c4-8002ede722b4', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, text='Error: Statement \'", SQLQuery)\\nprint("\' is invalid SQL.', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 127 -_Log_Message:  --res_source_nodes--->> [NodeWithScore(node=TextNode(id_='999e6023-267c-40de-b2c4-8002ede722b4', embedding=None, metadata={}, excluded_embed_metadata_keys=[], excluded_llm_metadata_keys=[], relationships={}, text='Error: Statement \'", SQLQuery)\\nprint("\' is invalid SQL.', mimetype='text/plain', start_char_idx=None, end_char_idx=None, text_template='{metadata_str}\n\n{content}', metadata_template='{key}: {value}', metadata_seperator='\n'), score=None)]
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 148 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 148 -_Log_Message:  --TYPE--sql_retriever--->> <class 'llama_index.core.indices.struct_store.sql_retriever.SQLRetriever'>
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 149 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7fd4ad857920>
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 149 -_Log_Message:  --sql_retriever--->> <llama_index.core.indices.struct_store.sql_retriever.SQLRetriever object at 0x7fd4ad857920>
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 154 -_Log_Message:  --TYPE--table_parser_component--->> <class 'llama_index.core.query_pipeline.components.function.FnComponent'>
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 154 -_Log_Message:  --TYPE--table_parser_component--->> <class 'llama_index.core.query_pipeline.components.function.FnComponent'>
+_11_02_2024_19:53:29 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:53:29 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_02_2024_19:53:29 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:53:29 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_02_2024_19:53:29 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:53:29 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 170 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
+_11_02_2024_19:53:29 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 170 -_Log_Message:  --text2sql_prompt.template--->> Given an input question, first create a syntactically correct {dialect} query to run, then look at the results of the query and return the answer. You can order the results by a relevant column to return the most interesting examples in the database.
+
+Never query for all the columns from a specific table, only ask for a few relevant columns given the question.
+
+Pay attention to use only the column names that you can see in the schema description. Be careful to not query for columns that do not exist. Pay attention to which column is in which table. Also, qualify column names with the table name when needed. You are required to use the following format, each taking one line:
+
+Question: Question here
+SQLQuery: SQL Query to run
+SQLResult: Result of the SQLQuery
+Answer: Final answer here
+
+Only use tables listed below.
+{schema}
+
+Question: {query_str}
+SQLQuery: 
