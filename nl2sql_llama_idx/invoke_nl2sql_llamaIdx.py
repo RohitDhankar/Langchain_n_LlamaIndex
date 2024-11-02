@@ -188,6 +188,14 @@ class Nl2SQL_LLamaIndex:
             #logger.debug("----TYPE-query_pipeline----->> %s",type(query_pipeline)) ##<class 'llama_index.core.query_pipeline.query.QueryPipeline'>
             logger.debug("----TYPE-query_pipeline----->> %s",query_pipeline)
 
+            defined_query_pipeline = self.define_query_pipeline(query_pipeline)
+            logger.debug("----TYPE-defined_query_pipeline----->> %s",defined_query_pipeline)
+            from pyvis.network import Network
+            net = Network(directed=True)#notebook=True, cdn_resources="in_line", 
+            net.from_nx(defined_query_pipeline.dag)
+            # Save the network as "text2sql_dag.html"
+            net.write_html("text2sql_dag.html")
+            logger.debug("----TYPE-defined_query_pipeline---AA-->> %s",defined_query_pipeline)
 
             #NLSQLTableQueryEngine()
 
@@ -204,6 +212,27 @@ class Nl2SQL_LLamaIndex:
         except Exception as err:
             logger.error(f"--Error--wrapper_get_query->> {err}")
         
+
+    @classmethod
+    def define_query_pipeline(self,qp):
+        """
+        """
+        qp.add_chain(["input", "table_retriever", "table_output_parser"])
+        qp.add_link("input", "text2sql_prompt", dest_key="query_str")
+        qp.add_link("table_output_parser", "text2sql_prompt", dest_key="schema")
+        qp.add_chain(
+            ["text2sql_prompt", "text2sql_llm", "sql_output_parser", "sql_retriever"]
+        )
+        qp.add_link(
+            "sql_output_parser", "response_synthesis_prompt", dest_key="sql_query"
+        )
+        qp.add_link(
+            "sql_retriever", "response_synthesis_prompt", dest_key="context_str"
+        )
+        qp.add_link("input", "response_synthesis_prompt", dest_key="query_str")
+        qp.add_link("response_synthesis_prompt", "response_synthesis_llm")
+        return qp
+
 
     @classmethod
     def get_query_pipeline(self,
