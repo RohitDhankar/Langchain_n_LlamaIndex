@@ -1,0 +1,80 @@
+_10_26_2024_17:07:55 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_26_2024_17:07:55 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 20 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 20 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='nomic-embed-text:latest')}
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:07:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:31:51 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_26_2024_17:31:51 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 20 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 20 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.1:latest', 'llm': Ollama(model='llama3.1:latest'), 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.1:latest', 'llm': Ollama(model='llama3.1:latest'), 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:31:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.2:latest', 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'messages': [], 'llm': Ollama(model='llama3.2:latest')}
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.2:latest', 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'messages': [], 'llm': Ollama(model='llama3.2:latest')}
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:32:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.2:latest', 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'messages': [], 'llm': Ollama(model='llama3.2:latest')}
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.2:latest', 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'messages': [], 'llm': Ollama(model='llama3.2:latest')}
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 73 -_Log_Message:  -Session DB-NONE-
+_10_26_2024_17:32:33 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 73 -_Log_Message:  -Session DB-NONE-
+_10_26_2024_17:32:33 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 29 -_Log_Message:  -STARTED-load_documents_into_database ->>
+_10_26_2024_17:32:33 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 29 -_Log_Message:  -STARTED-load_documents_into_database ->>
+_10_26_2024_17:32:58 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 38 -_Log_Message:  -DONE-load_documents_into_database--TYPE-chroma_db_persist ->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:32:58 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 38 -_Log_Message:  -DONE-load_documents_into_database--TYPE-chroma_db_persist ->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 80 -_Log_Message:  -Got Session DB--aa-->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 80 -_Log_Message:  -Got Session DB--aa-->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ollama_llm.py -_Meth_Name: get_streaming_chain() -_Line: 61 -_Log_Message:  --get_streaming_chain--->>
+_10_26_2024_17:32:58 - DEBUG -_Name: ollama_llm.py -_Meth_Name: get_streaming_chain() -_Line: 61 -_Log_Message:  --get_streaming_chain--->>
+_10_26_2024_17:32:58 - DEBUG -_Name: ollama_llm.py -_Meth_Name: get_streaming_chain() -_Line: 62 -_Log_Message:  ---get_streaming_chain--Got Session DB->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ollama_llm.py -_Meth_Name: get_streaming_chain() -_Line: 62 -_Log_Message:  ---get_streaming_chain--Got Session DB->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ollama_llm.py -_Meth_Name: get_streaming_chain() -_Line: 102 -_Log_Message:  --RETURN-get_streaming_chain---answer->> <class 'langchain_core.runnables.base.RunnableSequence'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ollama_llm.py -_Meth_Name: get_streaming_chain() -_Line: 102 -_Log_Message:  --RETURN-get_streaming_chain---answer->> <class 'langchain_core.runnables.base.RunnableSequence'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 90 -_Log_Message:  -get_streaming_chain-STREAM->> first={
+  rag_docs_content: RunnableLambda(...),
+  question: RunnableLambda(itemgetter('question'))
+} middle=[ChatPromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, messages=[HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, template="\n### Instruction:\nYou're a helpful research assistant, who answers questions based on provided research in a clear way and easy-to-understand way.\nIf there is no research, or the research is irrelevant to answering the question, simply reply that you can't answer.\nPlease reply with just the detailed answer and your sources. If you're unable to answer the question, do not list sources\n\n## Research:\n{rag_docs_content}\n\n## Question:\n{question}\n"), additional_kwargs={})])] last=Ollama(model='llama3.2:latest')
+_10_26_2024_17:32:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 90 -_Log_Message:  -get_streaming_chain-STREAM->> first={
+  rag_docs_content: RunnableLambda(...),
+  question: RunnableLambda(itemgetter('question'))
+} middle=[ChatPromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, messages=[HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, template="\n### Instruction:\nYou're a helpful research assistant, who answers questions based on provided research in a clear way and easy-to-understand way.\nIf there is no research, or the research is irrelevant to answering the question, simply reply that you can't answer.\nPlease reply with just the detailed answer and your sources. If you're unable to answer the question, do not list sources\n\n## Research:\n{rag_docs_content}\n\n## Question:\n{question}\n"), additional_kwargs={})])] last=Ollama(model='llama3.2:latest')
+_10_26_2024_17:32:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 92 -_Log_Message:  -get_streaming_chain-response->> <class 'streamlit.elements.write.StreamingOutput'>
+_10_26_2024_17:32:58 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 92 -_Log_Message:  -get_streaming_chain-response->> <class 'streamlit.elements.write.StreamingOutput'>
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 16 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.2:latest', 'db': <langchain_community.vectorstores.chroma.Chroma object at 0x7ff3b5a827e0>, 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'messages': [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': [('name', None), ('first', {
+  rag_docs_content: RunnableLambda(...),
+  question: RunnableLambda(itemgetter('question'))
+}), ('middle', [ChatPromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, messages=[HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, template="\n### Instruction:\nYou're a helpful research assistant, who answers questions based on provided research in a clear way and easy-to-understand way.\nIf there is no research, or the research is irrelevant to answering the question, simply reply that you can't answer.\nPlease reply with just the detailed answer and your sources. If you're unable to answer the question, do not list sources\n\n## Research:\n{rag_docs_content}\n\n## Question:\n{question}\n"), additional_kwargs={})])]), ('last', Ollama(model='llama3.2:latest'))]}], 'llm': Ollama(model='llama3.2:latest')}
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'llama3.2:latest', 'db': <langchain_community.vectorstores.chroma.Chroma object at 0x7ff3b5a827e0>, 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'messages': [{'role': 'user', 'content': 'hi'}, {'role': 'assistant', 'content': [('name', None), ('first', {
+  rag_docs_content: RunnableLambda(...),
+  question: RunnableLambda(itemgetter('question'))
+}), ('middle', [ChatPromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, messages=[HumanMessagePromptTemplate(prompt=PromptTemplate(input_variables=['question', 'rag_docs_content'], input_types={}, partial_variables={}, template="\n### Instruction:\nYou're a helpful research assistant, who answers questions based on provided research in a clear way and easy-to-understand way.\nIf there is no research, or the research is irrelevant to answering the question, simply reply that you can't answer.\nPlease reply with just the detailed answer and your sources. If you're unable to answer the question, do not list sources\n\n## Research:\n{rag_docs_content}\n\n## Question:\n{question}\n"), additional_kwargs={})])]), ('last', Ollama(model='llama3.2:latest'))]}], 'llm': Ollama(model='llama3.2:latest')}
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 70 -_Log_Message:  -Got Session DB->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_26_2024_17:33:41 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 70 -_Log_Message:  -Got Session DB->> <class 'langchain_community.vectorstores.chroma.Chroma'>

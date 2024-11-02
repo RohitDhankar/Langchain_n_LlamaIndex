@@ -1,0 +1,4 @@
+_11_01_2024_18:50:38 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_18:50:38 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_18:51:44 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_18:51:44 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>

@@ -1,0 +1,2 @@
+_08_11_2024_19:04:47 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_08_11_2024_19:04:47 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>

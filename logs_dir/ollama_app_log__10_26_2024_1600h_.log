@@ -1,0 +1,22 @@
+_10_26_2024_16:52:23 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_26_2024_16:52:23 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 19 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 19 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 19 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 19 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 23 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 23 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 23 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 23 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 34 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_26_2024_16:52:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 61 -_Log_Message:  -chat_input -NOT-NONE->>

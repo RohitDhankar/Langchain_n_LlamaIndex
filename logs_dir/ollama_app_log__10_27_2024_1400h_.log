@@ -1,0 +1,36 @@
+_10_27_2024_14:08:21 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_27_2024_14:08:21 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest']}
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 30 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest']}
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 40 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='llama3.1:latest'), 'ollama_model': 'llama3.1:latest'}
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 40 -_Log_Message:  -init-a-st.session_state--->> {'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='llama3.1:latest'), 'ollama_model': 'llama3.1:latest'}
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 44 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 44 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 75 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f4c50d3b620>, 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='llama3.1:latest'), 'ollama_model': 'llama3.1:latest', 'messages': []}
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 75 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f4c50d3b620>, 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='llama3.1:latest'), 'ollama_model': 'llama3.1:latest', 'messages': []}
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 78 -_Log_Message:  -STARTED-chat_input->>
+_10_27_2024_14:08:23 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 78 -_Log_Message:  -STARTED-chat_input->>
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 25 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 40 -_Log_Message:  -init-a-st.session_state--->> {'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f4c50d3b620>, 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='llama3.1:latest'), 'ollama_model': 'llama3.1:latest', 'messages': []}
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 40 -_Log_Message:  -init-a-st.session_state--->> {'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7f4c50d3b620>, 'list_of_models': ['llama3.1:latest', 'llama3.2:latest', 'nomic-embed-text:latest', 'mistral:latest'], 'llm': Ollama(model='llama3.1:latest'), 'ollama_model': 'llama3.1:latest', 'messages': []}
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 44 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 44 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 78 -_Log_Message:  -STARTED-chat_input->>
+_10_27_2024_14:08:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 78 -_Log_Message:  -STARTED-chat_input->>
+_10_27_2024_14:08:31 - DEBUG -_Name: invoke_chain.py -_Meth_Name: invoke_nl2sql() -_Line: 32 -_Log_Message:  -TYPE--response-->> <class 'str'>
+_10_27_2024_14:08:31 - DEBUG -_Name: invoke_chain.py -_Meth_Name: invoke_nl2sql() -_Line: 32 -_Log_Message:  -TYPE--response-->> <class 'str'>
+_10_27_2024_14:08:31 - DEBUG -_Name: invoke_chain.py -_Meth_Name: invoke_nl2sql() -_Line: 33 -_Log_Message:  -response-->> I'm ready to help. Go ahead and ask your question about SQLite.
+_10_27_2024_14:08:31 - DEBUG -_Name: invoke_chain.py -_Meth_Name: invoke_nl2sql() -_Line: 33 -_Log_Message:  -response-->> I'm ready to help. Go ahead and ask your question about SQLite.
+_10_27_2024_14:08:31 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 86 -_Log_Message:  --Nl2SQL_Langchain--nl2sql_response->> <class 'str'>
+_10_27_2024_14:08:31 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 86 -_Log_Message:  --Nl2SQL_Langchain--nl2sql_response->> <class 'str'>
+_10_27_2024_14:08:34 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 34 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST-response>> {
+ "Paris" : "Capital of France" }
+
+ 
+_10_27_2024_14:08:34 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 34 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST-response>> {
+ "Paris" : "Capital of France" }
+
+ 

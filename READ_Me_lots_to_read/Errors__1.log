@@ -1,0 +1,260 @@
+
+
+ bitnet.cpp (a fork of llama.cpp
+ https://ollama.com/blog/continue-code-assistant
+
+Pradip Nichite --  Mastering Natural Language to SQL with LangChain and LangSmith | NL2SQL | With Code 👇
+https://www.youtube.com/watch?v=fss6CrmQU2Y
+
+
+MAIN - 
+Langchain 
+https://github.com/langchain-ai/langchain/blob/master/docs/docs/tutorials/sql_qa.ipynb
+
+
+
+
+- Hugging Face announced a collaboration with Ollama, the popular software tool to run LLMs 100% privately offline on your laptop. It is now possible to run any GGUF model from the 🤗 hub using Ollama. Let me explain: GGUF is a format to store the weights of a large language model in an efficient format (using the .gguf extension). This is heavily used by the llama cpp framework, which implements models like LLaMa in C++, a fast programming language, enabling these models to be run at home on your laptop. The GGUF format supports various forms of so-called "quants", short for "quantizations", which significantly shrink the size of the models while keeping performance degradation to a minimum. The 🤗 hub hosts a huge amount of these GGUF models in various quantized formats (currently more than 43k!). Now, all you need to do to run a GGUF model from the hub is run "ollama run hf://hf. co/{username}/{reponame}:latest" and it will pull the weights from the hub onto your machine. See the video by the on-device LLM 🐐 Vaibhav Srivastav below.
+
+- Mistral AI released 2 new models optimized for edge use cases, 3B and 8B parameter variants. The models are called Ministral, come with a 128k token context window and are optimized for agentic use cases (function calling). The 8B variant can be seen as the successor of Mistral-7B, the amazing model which took the world by storm as it was dropped on the internet using a Magnet link without further context, exactly one year ago.
+
+Resources:
+- ollama: https://ollama.com/
+- guide on this new collab: https://lnkd.in/en-h5jpy
+- GGUF models on the hub: https://lnkd.in/eHxPg-q6
+- quantization: https://lnkd.in/eQP5rztA
+- Ministral models: https://lnkd.in/eRYspajq
+
+
+
+
+
+
+
+
+
+chain$ 
+(env_llama_idx) dhankar@dhankar-1:~/.../ollama_langchain$ streamlit run ui.py
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+/home/dhankar/temp/08_24/ollama_langchain/ui.py:28: LangChainDeprecationWarning: The class `Ollama` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaLLM``.
+  st.session_state["llm"] = Ollama(model=selected_model)
+Loading .pdf files
+  0%|                                                                                                                   | 0/1 [00:00<?, ?it/s]/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/pypdf/_crypt_providers/_cryptography.py:32: CryptographyDeprecationWarning: ARC4 has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.ARC4 and will be removed from this module in 48.0.0.
+  from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.50s/it]
+Loading .md files
+0it [00:00, ?it/s]
+/home/dhankar/temp/08_24/ollama_langchain/document_loader.py:33: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  OllamaEmbeddings(model=model_name),
+/home/dhankar/temp/08_24/ollama_langchain/document_loader.py:36: LangChainDeprecationWarning: Since Chroma 0.4.x the manual persistence method is no longer supported as docs are automatically persisted.
+  chroma_db_persist.persist()
+/home/dhankar/temp/08_24/ollama_langchain/ollama_llm.py:64: LangChainDeprecationWarning: Please see the migration guide at: https://python.langchain.com/docs/versions/migrating_memory/
+  conv_memory = ConversationBufferMemory(return_messages=True,
+
+
+
+
+
+
+
+
+
+
+Loading .md files
+0it [00:00, ?it/s]
+/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/_api/deprecation.py:139: LangChainDeprecationWarning: Since Chroma 0.4.x the manual persistence method is no longer supported as docs are automatically persisted.
+  warn_deprecated(
+2024-10-20 20:06:40.264 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "/home/dhankar/temp/08_24/ollama_langchain/ui.py", line 85, in <module>
+    response = st.write_stream(stream)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/metrics_util.py", line 397, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/elements/write.py", line 167, in write_stream
+    for chunk in stream:  # type: ignore
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3262, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3249, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3211, in _transform
+    for output in final_pipeline:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1272, in transform
+    for ichunk in input:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1272, in transform
+    for ichunk in input:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3700, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2018, in _transform_stream_with_config
+    final_input: Optional[Input] = next(input_for_tracing, None)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3700, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2018, in _transform_stream_with_config
+    final_input: Optional[Input] = next(input_for_tracing, None)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3700, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3685, in _transform
+    chunk = AddableDict({step_name: future.result()})
+                                    ^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3249, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3211, in _transform
+    for output in final_pipeline:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1272, in transform
+    for ichunk in input:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1272, in transform
+    for ichunk in input:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3700, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3685, in _transform
+    chunk = AddableDict({step_name: future.result()})
+                                    ^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 4580, in transform
+    for output in self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 4520, in _transform
+    for ichunk in input:
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/utils/iter.py", line 66, in tee_peer
+    item = next(iterator)
+           ^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/utils/iter.py", line 66, in tee_peer
+    item = next(iterator)
+           ^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/passthrough.py", line 577, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/passthrough.py", line 567, in _transform
+    yield cast(Dict[str, Any], first_map_chunk_future.result())
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3700, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 3685, in _transform
+    chunk = AddableDict({step_name: future.result()})
+                                    ^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 4580, in transform
+    for output in self._transform_stream_with_config(
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2054, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 4548, in _transform
+    output = call_func_with_variable_args(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 427, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/temp/08_24/ollama_langchain/llm.py", line 65, in <lambda>
+    [f"{item['role']}: {item['content']}" for item in x["memory"]]
+        ~~~~^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+^C  Stopping...
+^C
+(env_llama_idx) dhankar@dhankar-1:~/.../ollama_langchain$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-08-10 16:48:49.780 Uncaught app exception
+Traceback (most recent call last):
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/state/session_state.py", line 411, in __getitem__
+    return self._getitem(widget_id, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/state/session_state.py", line 456, in _getitem
+    raise KeyError
+KeyError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "/home/dhankar/temp/08_24/ollama_langchain/ui.py", line 64, in <module>
+    st.session_state["db"],
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/state/session_state_proxy.py", line 98, in __getitem__
+    return get_session_state()[key]
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/state/safe_session_state.py", line 93, in __getitem__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+  File "/home/dhankar/anaconda3/envs/env_llama_idx/lib/python3.12/site-packages/streamlit/runtime/state/session_state.py", line 413, in __getitem__
+    raise KeyError(_missing_key_error_message(key))
+KeyError: 'st.session_state has no key "db". Did you forget to initialize it? More info: https://docs.streamlit.io/library/advanced-features/session-state#initialization'
+
+
+

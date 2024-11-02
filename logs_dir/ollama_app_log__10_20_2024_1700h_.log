@@ -1,0 +1,38 @@
+_10_20_2024_17:08:47 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_17:08:47 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 13 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 13 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 13 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 13 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 17 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 17 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 24 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 24 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 28 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 28 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 17 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 17 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 24 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 24 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 28 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 28 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_20_2024_17:08:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 13 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 13 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 24 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest'], 'messages': []}
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 24 -_Log_Message:  -init-a-st.session_state--->> {'llm': Ollama(model='nomic-embed-text:latest'), 'ollama_model': 'nomic-embed-text:latest', 'list_of_models': ['nomic-embed-text:latest', 'mistral:latest'], 'messages': []}
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 28 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 28 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -chat_input -NOT-NONE->>
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 67 -_Log_Message:  -Session DB-NONE-
+_10_20_2024_17:08:55 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 67 -_Log_Message:  -Session DB-NONE-
+_10_20_2024_17:08:55 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 21 -_Log_Message:  -STARTED-load_documents_into_database ->>
+_10_20_2024_17:08:55 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 21 -_Log_Message:  -STARTED-load_documents_into_database ->>
+_10_20_2024_17:09:16 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 30 -_Log_Message:  -DONE-load_documents_into_database ->>
+_10_20_2024_17:09:16 - DEBUG -_Name: document_loader.py -_Meth_Name: load_documents_into_database() -_Line: 30 -_Log_Message:  -DONE-load_documents_into_database ->>
+_10_20_2024_17:09:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 74 -_Log_Message:  -Got Session DB--aa-->> <class 'langchain_community.vectorstores.chroma.Chroma'>
+_10_20_2024_17:09:16 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 74 -_Log_Message:  -Got Session DB--aa-->> <class 'langchain_community.vectorstores.chroma.Chroma'>

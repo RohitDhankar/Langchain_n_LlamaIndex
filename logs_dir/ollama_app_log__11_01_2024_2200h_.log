@@ -1,0 +1,324 @@
+_11_01_2024_22:06:37 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_22:06:37 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_22:07:44 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_22:07:44 - DEBUG -_Name: ollama_llm.py -_Meth_Name: <module>() -_Line: 26 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 41 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'ollama_model': 'nomic-embed-text:latest', 'llm': Ollama(model='nomic-embed-text:latest'), 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 39 -_Log_Message:  None
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:45 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059a84170>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059a84170>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:45 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa0945cb230>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa0945cb230>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:46 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059adc860>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059adc860>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:46 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:47 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:47 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 52 -_Log_Message:  --langc_sql_db_name.dialect--->> sqlite
+_11_01_2024_22:07:47 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:47 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_alchemy_engine() -_Line: 54 -_Log_Message:  --langc_sql_db_name.get_usable_table_names()--->> ['mtcars_name_df']
+_11_01_2024_22:07:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059adf500>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 96 -_Log_Message:  -init--st.session_state--sqlite_db->> {'sqlite_tb_name': 'mtcars_name_df', 'dataset_name': 'mtcars', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'ollama_model': 'nomic-embed-text:latest', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059adf500>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:47 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 36 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'dataset_name': 'mtcars', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'sqlite_tb_name': 'mtcars_name_df', 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059adc860>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 51 -_Log_Message:  -init-a-st.session_state--->> {'dataset_name': 'mtcars', 'sql_alchemy_engine': Engine(sqlite:///mtcars.db), 'sqlite_tb_name': 'mtcars_name_df', 'llm': Ollama(model='nomic-embed-text:latest'), 'messages': [], 'ollama_model': 'nomic-embed-text:latest', 'list_of_datasets': ['mtcars', 'tips', 'UKgas', 'airquality'], 'sqlite_db': <langchain_community.utilities.sql_database.SQLDatabase object at 0x7fa059adc860>, 'list_of_models': ['nomic-embed-text:latest', 'llama3.1:latest', 'llama3.2:latest', 'mistral:latest']}
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 55 -_Log_Message:  -local Docs Loading from Folder Path ->> pdf_dir
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:07:51 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 99 -_Log_Message:  -STARTED-chat_input->>
+_11_01_2024_22:08:17 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> {}  
+_11_01_2024_22:08:17 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> {}  
+_11_01_2024_22:08:20 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> It seems like you're trying to embed a text into an image using npm (Node Package Manager). However, I'm not sure what you mean by "nomic" in this context.
+
+If you could provide more information or clarify what you're trying to achieve, I'd be happy to help. Are you trying to:
+
+1. Embed a text onto an image using Node.js?
+2. Use a specific library or package (e.g., `fabric`, `jimp`, etc.) for image processing and text embedding?
+
+Let me know, and I'll do my best to assist you!
+_11_01_2024_22:08:20 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> It seems like you're trying to embed a text into an image using npm (Node Package Manager). However, I'm not sure what you mean by "nomic" in this context.
+
+If you could provide more information or clarify what you're trying to achieve, I'd be happy to help. Are you trying to:
+
+1. Embed a text onto an image using Node.js?
+2. Use a specific library or package (e.g., `fabric`, `jimp`, etc.) for image processing and text embedding?
+
+Let me know, and I'll do my best to assist you!
+_11_01_2024_22:08:21 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_01_2024_22:08:21 - DEBUG -_Name: data_ingest.py -_Meth_Name: get_llama_idx_sqldb() -_Line: 76 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_01_2024_22:08:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 117 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_01_2024_22:08:21 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 117 -_Log_Message:  ---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> <class 'llama_index.core.utilities.sql_wrapper.SQLDatabase'>
+_11_01_2024_22:08:41 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> It seems like you're referring to a popular game development technique. Nomic is an open-source tool for embedding arbitrary code within a game's executable, allowing developers to create unique in-game content and interactions.
+
+To embed text into a game using nomic, you would typically follow these steps:
+
+1. Create a script or module that contains the text you want to embed.
+2. Use nomic to generate a unique identifier for your embedded code.
+3. Include this identifier in your game's executable, so that the runtime environment can recognize and execute your embedded code.
+
+Here's an example of how you might use nomic to embed text into a game:
+
+Let's say we have a script called `embedText.js` that contains the following code:
+```javascript
+// This is the text we want to embed in our game.
+var textToEmbed = "Hello, World!";
+
+function embed() {
+  // We'll output this text when the embedded function is called.
+  console.log(textToEmbed);
+}
+
+export default { func: [embed] };
+```
+
+We then use nomic to generate a unique identifier for this script:
+```bash
+nomic -i embedText.js
+```
+
+This will create an executable file that contains our embedded code, along with the necessary metadata to identify it. We can then include this executable in our game's build process.
+
+Once our game is running, we can use the nomic runtime environment to execute our embedded function:
+```c
+// In our game's main loop or initialization routine.
+#include "nomic/nomic.h"
+
+int main() {
+  // Load our executable file containing the embedded code.
+  auto lib = load_executable("path/to/embeddedCode.so");
+
+  // Get a reference to the embedded function.
+  nomic::func* funcRef = lib->get_func(0);
+
+  // Execute the embedded function, which will log the text to the console.
+  funcRef->call();
+
+  return 0;
+}
+```
+
+This is just a basic example of how you might use nomic to embed text into a game. The actual process and implementation details may vary depending on your specific use case and requirements.
+
+Keep in mind that using nomic can introduce security risks if not used properly, as it allows arbitrary code execution within the game environment. Make sure to follow best practices for securing your game's runtime environment when using this technique.
+_11_01_2024_22:08:41 - DEBUG -_Name: data_ingest.py -_Meth_Name: invoke_ollama_llama_idx() -_Line: 110 -_Log_Message:  -init--invoke_ollama_llama_idx--TEST---response>> It seems like you're referring to a popular game development technique. Nomic is an open-source tool for embedding arbitrary code within a game's executable, allowing developers to create unique in-game content and interactions.
+
+To embed text into a game using nomic, you would typically follow these steps:
+
+1. Create a script or module that contains the text you want to embed.
+2. Use nomic to generate a unique identifier for your embedded code.
+3. Include this identifier in your game's executable, so that the runtime environment can recognize and execute your embedded code.
+
+Here's an example of how you might use nomic to embed text into a game:
+
+Let's say we have a script called `embedText.js` that contains the following code:
+```javascript
+// This is the text we want to embed in our game.
+var textToEmbed = "Hello, World!";
+
+function embed() {
+  // We'll output this text when the embedded function is called.
+  console.log(textToEmbed);
+}
+
+export default { func: [embed] };
+```
+
+We then use nomic to generate a unique identifier for this script:
+```bash
+nomic -i embedText.js
+```
+
+This will create an executable file that contains our embedded code, along with the necessary metadata to identify it. We can then include this executable in our game's build process.
+
+Once our game is running, we can use the nomic runtime environment to execute our embedded function:
+```c
+// In our game's main loop or initialization routine.
+#include "nomic/nomic.h"
+
+int main() {
+  // Load our executable file containing the embedded code.
+  auto lib = load_executable("path/to/embeddedCode.so");
+
+  // Get a reference to the embedded function.
+  nomic::func* funcRef = lib->get_func(0);
+
+  // Execute the embedded function, which will log the text to the console.
+  funcRef->call();
+
+  return 0;
+}
+```
+
+This is just a basic example of how you might use nomic to embed text into a game. The actual process and implementation details may vary depending on your specific use case and requirements.
+
+Keep in mind that using nomic can introduce security risks if not used properly, as it allows arbitrary code execution within the game environment. Make sure to follow best practices for securing your game's runtime environment when using this technique.
+_11_01_2024_22:08:41 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 105 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_01_2024_22:08:41 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 105 -_Log_Message:  --ls_table_schema_objs--->> [SQLTableSchema(table_name='mtcars_name_df', context_str=None)]
+_11_01_2024_22:08:44 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 112 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7fa04a20db20>
+_11_01_2024_22:08:44 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 112 -_Log_Message:  --obj_index--->> <llama_index.core.objects.base.ObjectIndex object at 0x7fa04a20db20>
+_11_01_2024_22:08:44 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 116 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7fa049493ec0>
+_11_01_2024_22:08:44 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 116 -_Log_Message:  --sql_tab_retr_query_engine--->> <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7fa049493ec0>
+_11_01_2024_22:09:37 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  -TYPE==-response_sql_retr_eng--->> <class 'llama_index.core.base.response.schema.Response'>
+_11_01_2024_22:09:37 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 118 -_Log_Message:  -TYPE==-response_sql_retr_eng--->> <class 'llama_index.core.base.response.schema.Response'>
+_11_01_2024_22:09:37 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 119 -_Log_Message:  --response_sql_retr_eng--->> The provided SQL response indicates that the code attempting to execute the function `process_question(question)` directly from the database query will result in an error. This is because SQL does not support executing Python code as a string.
+
+To synthesize a response, we need to parse the question and generate a valid SQL query based on the user's input. 
+
+Here is a revised version of your function that achieves this:
+
+```python
+import sqlite3
+
+# Connect to the database
+connection = sqlite3.connect('database.db')
+
+def process_question(question):
+    # Parse the question
+    if 'most' in question.lower():
+        sql_query = "SELECT Unnamed, mpg FROM mtcars_name_df ORDER BY mpg DESC LIMIT 10"
+    elif 'least' in question.lower():
+        sql_query = "SELECT Unname, mpg FROM mtcars_name_df ORDER BY mpg ASC LIMIT 10"
+    else:
+        return None
+
+    # Execute the SQL query
+    try:
+        cursor = connection.cursor()
+        cursor.execute(sql_query)
+        results = cursor.fetchall()
+    except sqlite3.Error as e:
+        print(e)
+        return None
+
+    # Process the results
+    answers = []
+    for result in results:
+        if len(result) == 2:  # Only process questions with two columns
+            answer = f"Unnamed: {result[0]}, mpg: {result[1]}"
+            answers.append(answer)
+
+    return answers
+
+# Test the function
+question = "hello"
+answers = process_question(question)
+if answers is not None:
+    for i, answer in enumerate(answers):
+        print(f"Question {i+1}: {answer}")
+else:
+    print("No relevant columns found.")
+```
+
+In this revised version, we don't execute a SQL query that directly parses the user's input. Instead, we use simple conditional statements to determine which SQL query to execute based on the user's question.
+
+Note that if you want to make your function more robust and flexible, you could consider using a natural language processing (NLP) library like NLTK or spaCy to parse the user's question and generate a valid SQL query.
+_11_01_2024_22:09:37 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 119 -_Log_Message:  --response_sql_retr_eng--->> The provided SQL response indicates that the code attempting to execute the function `process_question(question)` directly from the database query will result in an error. This is because SQL does not support executing Python code as a string.
+
+To synthesize a response, we need to parse the question and generate a valid SQL query based on the user's input. 
+
+Here is a revised version of your function that achieves this:
+
+```python
+import sqlite3
+
+# Connect to the database
+connection = sqlite3.connect('database.db')
+
+def process_question(question):
+    # Parse the question
+    if 'most' in question.lower():
+        sql_query = "SELECT Unnamed, mpg FROM mtcars_name_df ORDER BY mpg DESC LIMIT 10"
+    elif 'least' in question.lower():
+        sql_query = "SELECT Unname, mpg FROM mtcars_name_df ORDER BY mpg ASC LIMIT 10"
+    else:
+        return None
+
+    # Execute the SQL query
+    try:
+        cursor = connection.cursor()
+        cursor.execute(sql_query)
+        results = cursor.fetchall()
+    except sqlite3.Error as e:
+        print(e)
+        return None
+
+    # Process the results
+    answers = []
+    for result in results:
+        if len(result) == 2:  # Only process questions with two columns
+            answer = f"Unnamed: {result[0]}, mpg: {result[1]}"
+            answers.append(answer)
+
+    return answers
+
+# Test the function
+question = "hello"
+answers = process_question(question)
+if answers is not None:
+    for i, answer in enumerate(answers):
+        print(f"Question {i+1}: {answer}")
+else:
+    print("No relevant columns found.")
+```
+
+In this revised version, we don't execute a SQL query that directly parses the user's input. Instead, we use simple conditional statements to determine which SQL query to execute based on the user's question.
+
+Note that if you want to make your function more robust and flexible, you could consider using a natural language processing (NLP) library like NLTK or spaCy to parse the user's question and generate a valid SQL query.
+_11_01_2024_22:09:37 - ERROR -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 168 -_Log_Message:  --Error--wrapper_get_query->> 'result'
+_11_01_2024_22:09:37 - ERROR -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 168 -_Log_Message:  --Error--wrapper_get_query->> 'result'

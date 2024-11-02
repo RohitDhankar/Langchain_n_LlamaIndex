@@ -1,0 +1,20 @@
+_10_20_2024_15:08:45 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:08:45 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:17:25 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:17:25 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:49:24 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:49:24 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:49:24 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:49:24 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:49:25 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:49:25 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:51:28 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:51:28 - DEBUG -_Name: llm.py -_Meth_Name: <module>() -_Line: 22 -_Log_Message:  ----LOGGING--1--->> <class 'langchain_core.prompts.prompt.PromptTemplate'>
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 21 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 21 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 14 -_Log_Message:  --EMBEDDING_MODEL->> <class 'str'>
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 21 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
+_10_20_2024_15:51:28 - DEBUG -_Name: ui.py -_Meth_Name: <module>() -_Line: 21 -_Log_Message:  -init--st.session_state--->> {'list_of_models': ['nomic-embed-text:latest', 'mistral:latest']}
