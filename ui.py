@@ -107,23 +107,24 @@ if st.chat_input != None:
         # logger.debug("--Nl2SQL_Langchain--nl2sql_response->> %s",type(nl2sql_response))
         #st.info(nl2sql_response)
         #Nl2SQL_Langchain().invoke_sql_db_toolkit(user_nl_query,st.session_state["sqlite_db"])
-        nl2sql_response, llm_llama_idx , embed_model_llama_idx  = Nl2SQL_DataIngest().invoke_ollama_llama_idx(user_nl_query,
-                                                                                                        embedding_model_name_1,
+        llm_llama_idx , embed_model_llama_idx  = Nl2SQL_DataIngest().invoke_ollama_llama_idx(embedding_model_name_1,
                                                                                                         model_name_1,True)
-        st.info(nl2sql_response)
+        #st.info(nl2sql_response)
         sql_db_llama_idx = Nl2SQL_DataIngest().get_llama_idx_sqldb(embedding_model_name_1,
                                                 alchemy_engine= st.session_state["sql_alchemy_engine"],
                                                 table_name=st.session_state["sqlite_tb_name"])
         logger.debug("---get_llama_idx_sqldb--TYPE-sql_db_llama_idx--aa->> %s",type(sql_db_llama_idx))
-        response_sql_retr_eng , metadata_res = Nl2SQL_LLamaIndex().wrapper_get_query(user_nl_query,
-                                                        embedding_model_name_1,
-                                                        sql_db_llama_idx,
-                                                        st.session_state["sqlite_tb_name"]
-                                                        )
+        response_sql_retr_eng , dict_res_sql_retr_eng = Nl2SQL_LLamaIndex().wrapper_get_query(user_nl_query,
+                                                                            embedding_model_name_1,
+                                                                            sql_db_llama_idx,
+                                                                            st.session_state["sqlite_tb_name"]
+                                                                            )
 
         st.info("Initial RES - from -- SQLTableRetrieverQueryEngine")
         st.info(response_sql_retr_eng)
-        st.info(metadata_res)
+        st.info(str(dict_res_sql_retr_eng))
+
+        
         #Nl2SQL_LLamaIndex().parse_error(
         
         # nl2sql_stream = OLLAMA_LLM.get_streaming_chain(st.session_state["llm_ollama_langchain"],
