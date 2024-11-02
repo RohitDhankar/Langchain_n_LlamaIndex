@@ -93,7 +93,9 @@ class Nl2SQL_LLamaIndex:
 
             ls_table_schema_objs = []
             ls_table_names = [table_name]
-            _, llm_llama_idx , embed_model_llama_idx = Nl2SQL_DataIngest().invoke_ollama_llama_idx(embedding_model_name_1,model_name_1,json_mode=False)
+            llm_llama_idx , embed_model_llama_idx = Nl2SQL_DataIngest().invoke_ollama_llama_idx(embedding_model_name_1,
+                                                                        model_name_1,
+                                                                        json_mode=False)
             llama_idx_settings.llm = llm_llama_idx
             llama_idx_settings.embed_model = embed_model_llama_idx
 
@@ -113,19 +115,21 @@ class Nl2SQL_LLamaIndex:
             sql_tab_retr_query_engine = SQLTableRetrieverQueryEngine(sql_db_llama_idx, 
                                         obj_index.as_retriever(similarity_top_k=1)
                                         )
-            logger.debug("--sql_tab_retr_query_engine--->> %s",sql_tab_retr_query_engine)
+            logger.debug("--sql_tab_retr_query_engine--->> %s",sql_tab_retr_query_engine) # OK - <llama_index.core.indices.struct_store.sql_query.SQLTableRetrieverQueryEngine object at 0x7fdf81cbbec0>
             response_sql_retr_eng = sql_tab_retr_query_engine.query(user_nl_query)
-            logger.debug("-TYPE==-response_sql_retr_eng--->> %s",type(response_sql_retr_eng))
-            logger.debug("--response_sql_retr_eng--->> %s",response_sql_retr_eng)
+            #logger.debug("-TYPE==-response_sql_retr_eng--->> %s",type(response_sql_retr_eng)) # OK - <class 'llama_index.core.base.response.schema.Response'>
+            logger.debug("--response_sql_retr_eng--->> %s",response_sql_retr_eng) # OK - "According to our database, there are 32 records related to cars in our dataset."
             #.get_formatted_sources
             # you can also fetch the raw result from SQLAlchemy!
-            metadata_result = response_sql_retr_eng.metadata["result"]
+            if response_sql_retr_eng.metadata["result"]:
+                metadata_result = response_sql_retr_eng.metadata["result"] # NO errors Out 
+                logger.debug("--metadata_res--->> %s",metadata_result)
+
             res_source_nodes = response_sql_retr_eng.source_nodes
             metadata_all_res = response_sql_retr_eng.metadata
-
             res_sql_retr_eng = response_sql_retr_eng.response
             logger.debug("--res_sql_retr_eng--->> %s",res_sql_retr_eng)
-            logger.debug("--metadata_res--->> %s",metadata_result)
+            
             logger.debug("--res_source_nodes--->> %s",res_source_nodes)
             logger.debug("--metadata_all_res--->> %s",metadata_all_res)
 
@@ -162,8 +166,10 @@ class Nl2SQL_LLamaIndex:
 
             #response_sql_retr_eng.get_formatted
             #response_sql_retr_eng.get_formatted_sources(500)
+
+            dict_res_sql_retr_eng = {}
             
-            return response_sql_retr_eng , metadata_result
+            return response_sql_retr_eng 
         except Exception as err:
             logger.error(f"--Error--wrapper_get_query->> {err}")
         

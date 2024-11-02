@@ -68,7 +68,7 @@ class Nl2SQL_DataIngest:
         """
         try:
             model_name_1 = "llama3.2"
-            _ ,llm_llama_idx , embed_model_llama_idx = self.invoke_ollama_llama_idx(embedding_model_name_1,
+            llm_llama_idx , embed_model_llama_idx = self.invoke_ollama_llama_idx(embedding_model_name_1,
                                                                                 model_name_1,json_mode=False)
             llama_idx_settings.llm = llm_llama_idx
             llama_idx_settings.embed_model = embed_model_llama_idx
@@ -89,7 +89,6 @@ class Nl2SQL_DataIngest:
 
     @classmethod
     def invoke_ollama_llama_idx(self,
-                                user_nl_query,
                                 embedding_model_name_1,
                                 model_name=model_name_1,
                                 json_mode=True):
@@ -106,8 +105,9 @@ class Nl2SQL_DataIngest:
                                             request_timeout=120.0,
                                             json_mode=json_mode)
 
-        nl2sql_response = llm_llama_idx.complete(str(user_nl_query))
-        logger.debug("-init--invoke_ollama_llama_idx--TEST---response>> %s",nl2sql_response)
+        # TODO -- just a test of the prompt - trigger -- not required 
+        # nl2sql_response = llm_llama_idx.complete(str(user_nl_query))
+        # logger.debug("-init--invoke_ollama_llama_idx--TEST---response>> %s",nl2sql_response)
         
         embed_model_llama_idx = OllamaEmbedding(
                         model_name=embedding_model_name_1,
@@ -123,7 +123,7 @@ class Nl2SQL_DataIngest:
         # query_embedding = ollama_embedding.get_query_embedding("Where is blue?")
         # print(query_embedding)
 
-        return nl2sql_response, llm_llama_idx , embed_model_llama_idx 
+        return llm_llama_idx , embed_model_llama_idx 
 
 
 

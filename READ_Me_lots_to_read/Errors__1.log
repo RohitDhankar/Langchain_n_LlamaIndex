@@ -1,5 +1,18 @@
 
 
+1. Need to add a - dict_res_sql_retr_eng = {}
+as there are instances when the Answer here - is incorrect 
+which is then corrected by the - 
+Whence it corrects the Answer the metadata , results is not an empty Dict 
+
+
+
+
+
+
+
+
+
  bitnet.cpp (a fork of llama.cpp
  https://ollama.com/blog/continue-code-assistant
 
@@ -258,3 +271,8 @@ KeyError: 'st.session_state has no key "db". Did you forget to initialize it? Mo
 
 
 
+
+
+logger.debug("--metadata_all_res--->> %s",metadata_all_res)
+_11_02_2024_16:20:10 - DEBUG -_Name: invoke_nl2sql_llamaIdx.py -_Meth_Name: wrapper_get_query() -_Line: 128 -_Log_Message:  --metadata_res--->> [(32,)]
+-metadata_all_res--->> {'22e5f92e-bae3-47d3-a86d-b15e92651ad2': {'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}, 'sql_query': 'SELECT COUNT(*) FROM mtcars_name_df;', 'result': [(32,)], 'col_keys': ['COUNT(*)']}
